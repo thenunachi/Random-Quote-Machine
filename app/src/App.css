@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+#quote-box{
+  box-sizing: content-box;
+  border: solid 2px black;
+  width: 51rem;
+      background-color: white;
+}
+.img{
+      width: 9%;
+}
+#text{
+  font-size: 177%;
+}
+.links{
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 1rem;
+    flex-direction: row-reverse;
+}
+.socialLinks{
+  width: 52%;
+margin-left: -18%;
+}
+#new-quote{
+  width: 155px;
+    height: 49px;
+    cursor: pointer;
+    background-color: white;
 }
