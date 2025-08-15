@@ -43,8 +43,8 @@ const App = () => {
           <span className='links'>
             <button id="new-quote" style={{ backgroundColor: color, border:color}}className="btn btn-primary" onClick={(e) => handleClick(e)}>new-Quote</button>
             <div className='socialLinks' >
-              <a href="https://twitter.com/intent/tweet" style={{ color: color }} id="tweet-quote"> <img className="img" src={twitter} /></a>
-              <a href="https://tumblr.com/" style={{ color: color }} id="tumblr"> <img className="img" src={tumblr} /></a>
+              <a href="https://twitter.com/intent/tweet" target="_blank" style={{ color: color }} id="tweet-quote"> <img className="img" src={twitter} /></a>
+              <a href="https://tumblr.com/" target="_blank" style={{ color: color }} id="tumblr"> <img className="img" src={tumblr} /></a>
             </div>
           </span>
         </div>
